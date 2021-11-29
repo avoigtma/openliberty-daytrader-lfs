@@ -3,6 +3,8 @@ kind: ConfigMap
 metadata:
   name: prop1-cm
 data:
+  key1: value-1
+  key2: value-2
   file1: |
     # example properties file
     key-1=myvalue
